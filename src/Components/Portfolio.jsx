@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/TingJuin-DeanList.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Dean List Award image";
 
 /**
  * Project list
@@ -31,29 +31,30 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "The Vanished Voyage ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A c++ text-based game project that I worked on using C++ only. The game is about a character who is lost in a mysterious island and needs to find a way to escape.",
+    url: "https://github.com/juin03/CPT113-Hackathon-Group35",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Skor Mantap",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A front end web application that allows users to navigate and search for the best suitable tutors. Created using React and Tailwind CSS.",
+    url: "https://github.com/goyaoxiang/SkorMantap/tree/master/skormantap",
   },
   {
-    title: "My Resume Site",
+    title: "ASTHMAguard",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "ASTHMAguard is a ground-breaking solution proposed to revolutionize respiratory health management. Check this video out. You may view the app's prototype in the video's description too. ",
+    url: "https://youtu.be/CVFQ9XOi5wo",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Resume",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Here is my resume, which reflects my most recent achievements and qualifications as of 20/1/2024.",
+    url: "https://studentusm-my.sharepoint.com/:b:/g/personal/juin5789_student_usm_my/EaJ9nebCnIBHsZDHgq1DXR0BfVrYo2LT3c5o0YRYAcCETA?e=pTXiQd",
   },
+  
 ];
 
 const Portfolio = () => {
@@ -61,12 +62,14 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
+        <div style={{ paddingLeft: "5%", maxWidth: "40%", alignSelf: "center" }}>
+        <img
+        src={image}
+        style={{ height: "90%", width: "100%", objectFit: "cover", borderRadius: "15px" }}
+        alt={imageAltText}
+      />
+
+          <p>In the image, I receive the Top 10 award from the school's dean.</p>
         </div>
         <div className="container">
           {projectList.map((project) => (
