@@ -20,11 +20,10 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
+        // "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
-      ],
+        "ms-azuretools.vscode-azurestaticwebapps"      ],
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
