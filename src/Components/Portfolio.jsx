@@ -54,7 +54,6 @@ const projectList = [
       "Here is my resume, which reflects my most recent achievements and qualifications as of 20/1/2024.",
     url: "https://studentusm-my.sharepoint.com/:b:/g/personal/juin5789_student_usm_my/EaJ9nebCnIBHsZDHgq1DXR0BfVrYo2LT3c5o0YRYAcCETA?e=pTXiQd",
   },
-  
 ];
 
 const Portfolio = () => {
@@ -63,13 +62,12 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ paddingLeft: "5%", maxWidth: "40%", alignSelf: "center" }}>
-        <img
-        src={image}
-        style={{ height: "90%", width: "100%", objectFit: "cover", borderRadius: "15px" }}
-        alt={imageAltText}
-      />
-
-          <p>In the image, I receive the Top 10 award from the school's dean.</p>
+          <img
+            src={image}
+            style={{ height: "90%", width: "100%", objectFit: "cover", borderRadius: "15px", animation: "1s ease-out 0s 1 slideInLeft"}}
+            alt={imageAltText}
+          />
+          <p>In the image, I receive the Top 10 award from the dean.</p>
         </div>
         <div className="container">
           {projectList.map((project) => (
