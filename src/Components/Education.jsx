@@ -15,8 +15,8 @@ const Education = () => {
         }}>
             <div style={{ textAlign: 'center' }}>
                 <h1 style={{ fontSize: '48px', fontWeight: 'bold', marginBottom: '16px', textDecoration: 'underline', textOutline: '2px solid black', textShadow: '8px 8px 16px rgba(0, 0, 0, 0.5)', color: 'white' }}>My Education</h1>
-                <p style={{ fontSize: '24px', fontWeight: 'bold', textOutline: '2px solid black', textShadow: '8px 8px 16px rgba(0, 0, 0, 0.5)', color: 'white' }}>I studied Computer Science at ABC University.</p>
-                <p style={{ fontSize: '24px', fontWeight: 'bold', textOutline: '2px solid black', textShadow: '8px 8px 16px rgba(0, 0, 0, 0.5)', color: 'white' }}>I graduated with a Master's degree in Computer Science.</p>
+                <p style={{ fontSize: '24px', fontWeight: 'bold', textOutline: '2px solid black', textShadow: '8px 8px 16px rgba(0, 0, 0, 0.5)', color: 'white' }}>I studied Computer Science at Universiti Sains Malaysia.</p>
+                <p style={{ fontSize: '24px', fontWeight: 'bold', textOutline: '2px solid black', textShadow: '8px 8px 16px rgba(0, 0, 0, 0.5)', color: 'white' }}>I will be graduating in 2026.</p>
             </div>
         </div>
     );
